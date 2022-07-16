@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box>p {
+            width: 400px;
+            height: 300px;
+            background: lightgray;
+            border: 3px solid darkolivegreen;
+            overflow: hidden;
+
+        }
+
+        .box>p {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+
+        .blog .box:nth-child(2n) {
+            background: lightsalmon;
+            border: 3px solid magenta;
+        }
+
+        .short-text {
+            width: 300px;
+            border: 1px solid red;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Overflow</h1>
+    <p class="short-text" title="Hello , My name is Short Text I have a little space">Hello , My name is Short Text I
+        have a little space</p>
+
+    <div class="blog">
+
+        <div class="box" id="box-1">
+            <h3>this is box - 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias et aut molestiae cumque laudantium
+                corrupti repellat, cupiditate atque, incidunt harum optio velit id amet iusto eligendi. Placeat impedit,
+                fuga natus, vero sed soluta, debitis neque nemo quisquam vitae aperiam vel rem quibusdam tempora modi
+                itaque? Dolore commodi magnam esse suscipit reprehenderit facilis corporis aliquid at voluptatibus
+                similique, nesciunt mollitia cupiditate qui obcaecati unde? Asperiores distinctio vero cumque impedit?
+                Sunt
+                laboriosam perspiciatis dolor. Ab, incidunt. Tempora illum delectus animi earum dolorum deleniti
+                distinctio
+                accusantium, nihil, sequi dignissimos sint aperiam. Id libero nesciunt saepe ullam voluptatibus
+                accusantium
+                nisi dignissimos nostrum aspernatur magnam.</p>
+        </div>
+        <div class="box" id="box-2">
+            <h3>this is box - 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem recusandae in itaque beatae?
+                Consequuntur ducimus vero facilis in explicabo! Quae praesentium error, commodi autem quis aspernatur
+                quasi!
+                Dolores exercitationem, cupiditate modi non ipsa, laborum quas magnam ipsam nulla voluptas corporis
+                autem
+                pariatur facilis sunt mollitia provident vel quae dignissimos, iste perferendis iure earum consequatur
+                esse.
+                Possimus, eos? Distinctio et laborum eveniet ex aspernatur a quibusdam pariatur unde eligendi culpa vero
+                numquam natus sit eum tenetur deserunt repudiandae quaerat animi nobis id nihil, maiores voluptatibus,
+                illum
+                reprehenderit. Molestiae rerum eligendi fuga, quia assumenda magnam error minus nobis. Doloremque,
+                maxime
+                quod.</p>
+        </div>
+        <div class="box" id="box-3">
+            <h3>this is box - 3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ratione suscipit similique nisi iste vel
+                rem
+                ipsa, quam veritatis accusantium dignissimos nemo enim facilis sunt officia, saepe aut ipsam hic?
+                Maxime,
+                eligendi! Eveniet ab, id repellat, atque et nam maxime aspernatur unde ipsum, natus illo! Possimus vel
+                praesentium soluta nostrum, ipsa magni illo repellat alias qui aspernatur sint laborum eos sunt quaerat
+                unde
+                rerum eius accusantium modi odio tempore veniam delectus labore non. Consectetur earum aperiam ut
+                voluptatum
+                dolorum culpa maxime quam, blanditiis reprehenderit possimus eos, fuga eum quibusdam. Id, earum
+                inventore?
+                Nostrum, vero ducimus. Tenetur dignissimos unde impedit doloribus?</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
